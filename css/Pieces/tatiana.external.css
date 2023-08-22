@@ -1,0 +1,36 @@
+.pawn.white {
+  background-image: url("/assets/piece/tatiana/wP.svg");
+}
+.knight.white {
+  background-image: url("/assets/piece/tatiana/wN.svg");
+}
+.bishop.white {
+  background-image: url("/assets/piece/tatiana/wB.svg");
+}
+.rook.white {
+  background-image: url("/assets/piece/tatiana/wR.svg");
+}
+.queen.white {
+  background-image: url("/assets/piece/tatiana/wQ.svg");
+}
+.king.white {
+  background-image: url("/assets/piece/tatiana/wK.svg");
+}
+.pawn.black {
+  background-image: url("/assets/piece/tatiana/bP.svg");
+}
+.knight.black {
+  background-image: url("/assets/piece/tatiana/bN.svg");
+}
+.bishop.black {
+  background-image: url("/assets/piece/tatiana/bB.svg");
+}
+.rook.black {
+  background-image: url("/assets/piece/tatiana/bR.svg");
+}
+.queen.black {
+  background-image: url("/assets/piece/tatiana/bQ.svg");
+}
+.king.black {
+  background-image: url("/assets/piece/tatiana/bK.svg");
+}

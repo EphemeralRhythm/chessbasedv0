@@ -1,0 +1,36 @@
+.pawn.white {
+  background-image: url("/assets/piece/kiwen-suwi/wP.svg");
+}
+.knight.white {
+  background-image: url("/assets/piece/kiwen-suwi/wN.svg");
+}
+.bishop.white {
+  background-image: url("/assets/piece/kiwen-suwi/wB.svg");
+}
+.rook.white {
+  background-image: url("/assets/piece/kiwen-suwi/wR.svg");
+}
+.queen.white {
+  background-image: url("/assets/piece/kiwen-suwi/wQ.svg");
+}
+.king.white {
+  background-image: url("/assets/piece/kiwen-suwi/wK.svg");
+}
+.pawn.black {
+  background-image: url("/assets/piece/kiwen-suwi/bP.svg");
+}
+.knight.black {
+  background-image: url("/assets/piece/kiwen-suwi/bN.svg");
+}
+.bishop.black {
+  background-image: url("/assets/piece/kiwen-suwi/bB.svg");
+}
+.rook.black {
+  background-image: url("/assets/piece/kiwen-suwi/bR.svg");
+}
+.queen.black {
+  background-image: url("/assets/piece/kiwen-suwi/bQ.svg");
+}
+.king.black {
+  background-image: url("/assets/piece/kiwen-suwi/bK.svg");
+}

@@ -1,0 +1,36 @@
+.pawn.white {
+  background-image: url("/assets/piece/fresca/wP.svg");
+}
+.knight.white {
+  background-image: url("/assets/piece/fresca/wN.svg");
+}
+.bishop.white {
+  background-image: url("/assets/piece/fresca/wB.svg");
+}
+.rook.white {
+  background-image: url("/assets/piece/fresca/wR.svg");
+}
+.queen.white {
+  background-image: url("/assets/piece/fresca/wQ.svg");
+}
+.king.white {
+  background-image: url("/assets/piece/fresca/wK.svg");
+}
+.pawn.black {
+  background-image: url("/assets/piece/fresca/bP.svg");
+}
+.knight.black {
+  background-image: url("/assets/piece/fresca/bN.svg");
+}
+.bishop.black {
+  background-image: url("/assets/piece/fresca/bB.svg");
+}
+.rook.black {
+  background-image: url("/assets/piece/fresca/bR.svg");
+}
+.queen.black {
+  background-image: url("/assets/piece/fresca/bQ.svg");
+}
+.king.black {
+  background-image: url("/assets/piece/fresca/bK.svg");
+}

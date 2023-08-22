@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+  <head>
+    <link
+      href="https://db.onlinewebfonts.com/c/1926835283cbd17d05331a50e3039ada?family=lichess"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link type="text/css" href="css/chessground.base.css" rel="stylesheet" />
+    <link type="text/css" href="css/Pieces/cardinal.css" , rel="stylesheet" />
+    <link type="text/css" href="css/chessground.board.css" rel="stylesheet" />
+    <link type="text/css" href="css/styles.css" rel="stylesheet" />
+    <link type="text/css" href="css/switch.css" rel="stylesheet" />
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/stockfish.wasm@0.10.0/stockfish.min.js"></script>
+    <script src="js/eco.js"></script>
+    <script src="utils.js"></script>
+    <script src="structures.js" type="module"></script>
+    <script type="module" src="index.js"></script>
+
+    <title>ChessBASED</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="cg-main">
+        <div class="cg-board" id="cg-board"></div>
+        <div class="board-controls">
+          <div class="buttons-container">
+            <button class="control-button" data-act="flip">B</button>
+            <button class="control-button" data-act="first">W</button>
+            <button class="control-button" data-act="prev">Y</button>
+            <button class="control-button" data-act="next">X</button>
+            <button class="control-button" data-act="last">V</button>
+            <button class="control-button" data-act="menu">[</button>
+          </div>
+        </div>
+      </div>
+      <div class="side-container">
+        <div class="cg-side">
+          <div class="tabs-menu">
+            <button class="tabs-button selected" data-act="notation">
+              Notation
+            </button>
+            <button class="tabs-button" data-act="repertoire">
+              Repertoires
+            </button>
+            <button class="tabs-button" data-act="explorer">Explorer</button>
+          </div>
+          <div class="panels-container"></div>
+        </div>
+        <div class="analysis" id="analysis">
+          <div class="analysis-menu">
+            <div class="analysis-title">Analysis</div>
+            <div class="analysis-toggle">
+              <label class="switch">
+                <input type="checkbox" id="engine-toggle" />
+                <span class="slider round"></span>
+              </label>
+            </div>
+            <div class="toggle-container">
+              <div class="engine-name">Stockfish 16 NNUE</div>
+              <div id="engine-depth"></div>
+            </div>
+          </div>
+          <div class="engine-lines">
+            <div class="engine-line" id="1"></div>
+            <div class="engine-line" id="2"></div>
+            <div class="engine-line" id="3"></div>
+            <div class="engine-line" id="4"></div>
+            <div class="engine-line" id="5"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

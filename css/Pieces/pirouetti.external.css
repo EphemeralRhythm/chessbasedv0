@@ -1,0 +1,36 @@
+.pawn.white {
+  background-image: url("/assets/piece/pirouetti/wP.svg");
+}
+.knight.white {
+  background-image: url("/assets/piece/pirouetti/wN.svg");
+}
+.bishop.white {
+  background-image: url("/assets/piece/pirouetti/wB.svg");
+}
+.rook.white {
+  background-image: url("/assets/piece/pirouetti/wR.svg");
+}
+.queen.white {
+  background-image: url("/assets/piece/pirouetti/wQ.svg");
+}
+.king.white {
+  background-image: url("/assets/piece/pirouetti/wK.svg");
+}
+.pawn.black {
+  background-image: url("/assets/piece/pirouetti/bP.svg");
+}
+.knight.black {
+  background-image: url("/assets/piece/pirouetti/bN.svg");
+}
+.bishop.black {
+  background-image: url("/assets/piece/pirouetti/bB.svg");
+}
+.rook.black {
+  background-image: url("/assets/piece/pirouetti/bR.svg");
+}
+.queen.black {
+  background-image: url("/assets/piece/pirouetti/bQ.svg");
+}
+.king.black {
+  background-image: url("/assets/piece/pirouetti/bK.svg");
+}

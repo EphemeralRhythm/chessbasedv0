@@ -1,0 +1,36 @@
+.pawn.white {
+  background-image: url("/assets/piece/kosal/wP.svg");
+}
+.knight.white {
+  background-image: url("/assets/piece/kosal/wN.svg");
+}
+.bishop.white {
+  background-image: url("/assets/piece/kosal/wB.svg");
+}
+.rook.white {
+  background-image: url("/assets/piece/kosal/wR.svg");
+}
+.queen.white {
+  background-image: url("/assets/piece/kosal/wQ.svg");
+}
+.king.white {
+  background-image: url("/assets/piece/kosal/wK.svg");
+}
+.pawn.black {
+  background-image: url("/assets/piece/kosal/bP.svg");
+}
+.knight.black {
+  background-image: url("/assets/piece/kosal/bN.svg");
+}
+.bishop.black {
+  background-image: url("/assets/piece/kosal/bB.svg");
+}
+.rook.black {
+  background-image: url("/assets/piece/kosal/bR.svg");
+}
+.queen.black {
+  background-image: url("/assets/piece/kosal/bQ.svg");
+}
+.king.black {
+  background-image: url("/assets/piece/kosal/bK.svg");
+}

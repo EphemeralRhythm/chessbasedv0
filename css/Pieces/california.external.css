@@ -1,0 +1,36 @@
+.pawn.white {
+  background-image: url("/assets/piece/california/wP.svg");
+}
+.knight.white {
+  background-image: url("/assets/piece/california/wN.svg");
+}
+.bishop.white {
+  background-image: url("/assets/piece/california/wB.svg");
+}
+.rook.white {
+  background-image: url("/assets/piece/california/wR.svg");
+}
+.queen.white {
+  background-image: url("/assets/piece/california/wQ.svg");
+}
+.king.white {
+  background-image: url("/assets/piece/california/wK.svg");
+}
+.pawn.black {
+  background-image: url("/assets/piece/california/bP.svg");
+}
+.knight.black {
+  background-image: url("/assets/piece/california/bN.svg");
+}
+.bishop.black {
+  background-image: url("/assets/piece/california/bB.svg");
+}
+.rook.black {
+  background-image: url("/assets/piece/california/bR.svg");
+}
+.queen.black {
+  background-image: url("/assets/piece/california/bQ.svg");
+}
+.king.black {
+  background-image: url("/assets/piece/california/bK.svg");
+}

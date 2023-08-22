@@ -1,0 +1,36 @@
+.pawn.white {
+  background-image: url("/assets/piece/merida/wP.svg");
+}
+.knight.white {
+  background-image: url("/assets/piece/merida/wN.svg");
+}
+.bishop.white {
+  background-image: url("/assets/piece/merida/wB.svg");
+}
+.rook.white {
+  background-image: url("/assets/piece/merida/wR.svg");
+}
+.queen.white {
+  background-image: url("/assets/piece/merida/wQ.svg");
+}
+.king.white {
+  background-image: url("/assets/piece/merida/wK.svg");
+}
+.pawn.black {
+  background-image: url("/assets/piece/merida/bP.svg");
+}
+.knight.black {
+  background-image: url("/assets/piece/merida/bN.svg");
+}
+.bishop.black {
+  background-image: url("/assets/piece/merida/bB.svg");
+}
+.rook.black {
+  background-image: url("/assets/piece/merida/bR.svg");
+}
+.queen.black {
+  background-image: url("/assets/piece/merida/bQ.svg");
+}
+.king.black {
+  background-image: url("/assets/piece/merida/bK.svg");
+}

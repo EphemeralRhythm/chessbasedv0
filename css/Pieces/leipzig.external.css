@@ -1,0 +1,36 @@
+.pawn.white {
+  background-image: url("/assets/piece/leipzig/wP.svg");
+}
+.knight.white {
+  background-image: url("/assets/piece/leipzig/wN.svg");
+}
+.bishop.white {
+  background-image: url("/assets/piece/leipzig/wB.svg");
+}
+.rook.white {
+  background-image: url("/assets/piece/leipzig/wR.svg");
+}
+.queen.white {
+  background-image: url("/assets/piece/leipzig/wQ.svg");
+}
+.king.white {
+  background-image: url("/assets/piece/leipzig/wK.svg");
+}
+.pawn.black {
+  background-image: url("/assets/piece/leipzig/bP.svg");
+}
+.knight.black {
+  background-image: url("/assets/piece/leipzig/bN.svg");
+}
+.bishop.black {
+  background-image: url("/assets/piece/leipzig/bB.svg");
+}
+.rook.black {
+  background-image: url("/assets/piece/leipzig/bR.svg");
+}
+.queen.black {
+  background-image: url("/assets/piece/leipzig/bQ.svg");
+}
+.king.black {
+  background-image: url("/assets/piece/leipzig/bK.svg");
+}

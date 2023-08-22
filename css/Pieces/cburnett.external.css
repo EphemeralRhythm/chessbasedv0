@@ -1,0 +1,36 @@
+.pawn.white {
+  background-image: url("/assets/piece/cburnett/wP.svg");
+}
+.knight.white {
+  background-image: url("/assets/piece/cburnett/wN.svg");
+}
+.bishop.white {
+  background-image: url("/assets/piece/cburnett/wB.svg");
+}
+.rook.white {
+  background-image: url("/assets/piece/cburnett/wR.svg");
+}
+.queen.white {
+  background-image: url("/assets/piece/cburnett/wQ.svg");
+}
+.king.white {
+  background-image: url("/assets/piece/cburnett/wK.svg");
+}
+.pawn.black {
+  background-image: url("/assets/piece/cburnett/bP.svg");
+}
+.knight.black {
+  background-image: url("/assets/piece/cburnett/bN.svg");
+}
+.bishop.black {
+  background-image: url("/assets/piece/cburnett/bB.svg");
+}
+.rook.black {
+  background-image: url("/assets/piece/cburnett/bR.svg");
+}
+.queen.black {
+  background-image: url("/assets/piece/cburnett/bQ.svg");
+}
+.king.black {
+  background-image: url("/assets/piece/cburnett/bK.svg");
+}

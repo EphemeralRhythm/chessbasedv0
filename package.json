@@ -1,0 +1,17 @@
+{
+  "name": "chessbased",
+  "version": "0.0.0",
+  "description": "A chess application for based people",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chess.js": "^1.0.0-beta.6",
+    "chessground": "^9.0.2",
+    "pgn-parser": "^2.2.0",
+    "stockfish": "^16.0.0"
+  }
+}

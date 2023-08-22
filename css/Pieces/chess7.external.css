@@ -1,0 +1,36 @@
+.pawn.white {
+  background-image: url("/assets/piece/chess7/wP.svg");
+}
+.knight.white {
+  background-image: url("/assets/piece/chess7/wN.svg");
+}
+.bishop.white {
+  background-image: url("/assets/piece/chess7/wB.svg");
+}
+.rook.white {
+  background-image: url("/assets/piece/chess7/wR.svg");
+}
+.queen.white {
+  background-image: url("/assets/piece/chess7/wQ.svg");
+}
+.king.white {
+  background-image: url("/assets/piece/chess7/wK.svg");
+}
+.pawn.black {
+  background-image: url("/assets/piece/chess7/bP.svg");
+}
+.knight.black {
+  background-image: url("/assets/piece/chess7/bN.svg");
+}
+.bishop.black {
+  background-image: url("/assets/piece/chess7/bB.svg");
+}
+.rook.black {
+  background-image: url("/assets/piece/chess7/bR.svg");
+}
+.queen.black {
+  background-image: url("/assets/piece/chess7/bQ.svg");
+}
+.king.black {
+  background-image: url("/assets/piece/chess7/bK.svg");
+}

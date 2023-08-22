@@ -1,0 +1,36 @@
+.pawn.white {
+  background-image: url("/assets/piece/maestro/wP.svg");
+}
+.knight.white {
+  background-image: url("/assets/piece/maestro/wN.svg");
+}
+.bishop.white {
+  background-image: url("/assets/piece/maestro/wB.svg");
+}
+.rook.white {
+  background-image: url("/assets/piece/maestro/wR.svg");
+}
+.queen.white {
+  background-image: url("/assets/piece/maestro/wQ.svg");
+}
+.king.white {
+  background-image: url("/assets/piece/maestro/wK.svg");
+}
+.pawn.black {
+  background-image: url("/assets/piece/maestro/bP.svg");
+}
+.knight.black {
+  background-image: url("/assets/piece/maestro/bN.svg");
+}
+.bishop.black {
+  background-image: url("/assets/piece/maestro/bB.svg");
+}
+.rook.black {
+  background-image: url("/assets/piece/maestro/bR.svg");
+}
+.queen.black {
+  background-image: url("/assets/piece/maestro/bQ.svg");
+}
+.king.black {
+  background-image: url("/assets/piece/maestro/bK.svg");
+}

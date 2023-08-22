@@ -1,0 +1,36 @@
+.pawn.white {
+  background-image: url("/assets/piece/governor/wP.svg");
+}
+.knight.white {
+  background-image: url("/assets/piece/governor/wN.svg");
+}
+.bishop.white {
+  background-image: url("/assets/piece/governor/wB.svg");
+}
+.rook.white {
+  background-image: url("/assets/piece/governor/wR.svg");
+}
+.queen.white {
+  background-image: url("/assets/piece/governor/wQ.svg");
+}
+.king.white {
+  background-image: url("/assets/piece/governor/wK.svg");
+}
+.pawn.black {
+  background-image: url("/assets/piece/governor/bP.svg");
+}
+.knight.black {
+  background-image: url("/assets/piece/governor/bN.svg");
+}
+.bishop.black {
+  background-image: url("/assets/piece/governor/bB.svg");
+}
+.rook.black {
+  background-image: url("/assets/piece/governor/bR.svg");
+}
+.queen.black {
+  background-image: url("/assets/piece/governor/bQ.svg");
+}
+.king.black {
+  background-image: url("/assets/piece/governor/bK.svg");
+}

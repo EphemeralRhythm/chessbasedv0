@@ -1,0 +1,36 @@
+.pawn.white {
+  background-image: url("/assets/piece/disguised/wP.svg");
+}
+.knight.white {
+  background-image: url("/assets/piece/disguised/wN.svg");
+}
+.bishop.white {
+  background-image: url("/assets/piece/disguised/wB.svg");
+}
+.rook.white {
+  background-image: url("/assets/piece/disguised/wR.svg");
+}
+.queen.white {
+  background-image: url("/assets/piece/disguised/wQ.svg");
+}
+.king.white {
+  background-image: url("/assets/piece/disguised/wK.svg");
+}
+.pawn.black {
+  background-image: url("/assets/piece/disguised/bP.svg");
+}
+.knight.black {
+  background-image: url("/assets/piece/disguised/bN.svg");
+}
+.bishop.black {
+  background-image: url("/assets/piece/disguised/bB.svg");
+}
+.rook.black {
+  background-image: url("/assets/piece/disguised/bR.svg");
+}
+.queen.black {
+  background-image: url("/assets/piece/disguised/bQ.svg");
+}
+.king.black {
+  background-image: url("/assets/piece/disguised/bK.svg");
+}

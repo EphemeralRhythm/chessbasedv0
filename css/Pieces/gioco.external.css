@@ -1,0 +1,36 @@
+.pawn.white {
+  background-image: url("/assets/piece/gioco/wP.svg");
+}
+.knight.white {
+  background-image: url("/assets/piece/gioco/wN.svg");
+}
+.bishop.white {
+  background-image: url("/assets/piece/gioco/wB.svg");
+}
+.rook.white {
+  background-image: url("/assets/piece/gioco/wR.svg");
+}
+.queen.white {
+  background-image: url("/assets/piece/gioco/wQ.svg");
+}
+.king.white {
+  background-image: url("/assets/piece/gioco/wK.svg");
+}
+.pawn.black {
+  background-image: url("/assets/piece/gioco/bP.svg");
+}
+.knight.black {
+  background-image: url("/assets/piece/gioco/bN.svg");
+}
+.bishop.black {
+  background-image: url("/assets/piece/gioco/bB.svg");
+}
+.rook.black {
+  background-image: url("/assets/piece/gioco/bR.svg");
+}
+.queen.black {
+  background-image: url("/assets/piece/gioco/bQ.svg");
+}
+.king.black {
+  background-image: url("/assets/piece/gioco/bK.svg");
+}

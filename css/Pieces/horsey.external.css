@@ -1,0 +1,36 @@
+.pawn.white {
+  background-image: url("/assets/piece/horsey/wP.svg");
+}
+.knight.white {
+  background-image: url("/assets/piece/horsey/wN.svg");
+}
+.bishop.white {
+  background-image: url("/assets/piece/horsey/wB.svg");
+}
+.rook.white {
+  background-image: url("/assets/piece/horsey/wR.svg");
+}
+.queen.white {
+  background-image: url("/assets/piece/horsey/wQ.svg");
+}
+.king.white {
+  background-image: url("/assets/piece/horsey/wK.svg");
+}
+.pawn.black {
+  background-image: url("/assets/piece/horsey/bP.svg");
+}
+.knight.black {
+  background-image: url("/assets/piece/horsey/bN.svg");
+}
+.bishop.black {
+  background-image: url("/assets/piece/horsey/bB.svg");
+}
+.rook.black {
+  background-image: url("/assets/piece/horsey/bR.svg");
+}
+.queen.black {
+  background-image: url("/assets/piece/horsey/bQ.svg");
+}
+.king.black {
+  background-image: url("/assets/piece/horsey/bK.svg");
+}

@@ -1,0 +1,11 @@
+An element of the list could have one move:
+{move: 'b4' comments: []}
+
+or multiple moves:
+{move: 'Bc5' ravs:[
+              {moves: [], comments:[], result: []}
+              {moves: [], comments:[], result: []}
+]}
+
+* In the above case Bc5 is the main move. To access other variations
+We use ["ravs"][j]["moves"]

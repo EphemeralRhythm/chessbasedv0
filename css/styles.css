@@ -1,0 +1,231 @@
+* {
+  font-family: "Poppins";
+  color: white;
+}
+body {
+  background-color: rgb(22, 21, 18) !important;
+}
+.cg-board {
+  width: 500px;
+  height: 500px;
+  background-color: "cyan";
+}
+.container {
+  padding: 3em;
+  display: flex;
+  flex-direction: row;
+}
+.cg-main {
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  background-color: rgb(30, 30, 30);
+}
+.side-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+.cg-side {
+  margin-left: 15px;
+  background-color: rgb(30, 30, 30);
+  border-radius: 8px;
+  height: 60%;
+  /* flex-grow: 1; */
+}
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+}
+.control-button {
+  font-size: 30px;
+  border-radius: 3px;
+  flex: 1 1 25%;
+  min-height: 30px;
+  /* background-color: rgb(22, 21, 18) !important; */
+  background-color: rgb(30, 30, 30);
+  color: white;
+  border-style: none;
+  overflow: auto;
+  font-family: "lichess";
+  /* border: solid 1px white; */
+}
+
+.control-button:hover {
+  background-color: rgb(60, 60, 60) !important;
+}
+.tabs-menu {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 5px;
+  border-bottom: 1px solid rgb(90, 90, 90);
+}
+.tabs-button {
+  background-color: inherit;
+  color: white;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+.tabs-button:hover {
+  color: rgb(200, 200, 200);
+}
+.tabs-button.selected {
+  color: #189426;
+  border-bottom: 1px solid #189426;
+}
+.tabs-button.selected:hover {
+  color: #05ed28;
+  border-bottom: 1px solid #05ed28;
+}
+.tabs-button::before {
+  font-family: "lichess";
+  font-size: 10px;
+  padding: 8px;
+}
+.tabs-button[data-act="explorer"]::before {
+  content: "y";
+}
+.tabs-button[data-act="notation"]::before {
+  content: "m";
+}
+.tabs-button[data-act="repertoire"]::before {
+  content: "]";
+}
+.panels-container {
+  max-width: 96%;
+  max-height: 90%;
+
+  display: flexbox;
+  flex-direction: row;
+}
+.opening-name {
+  font-size: 18px;
+  margin: 10px;
+}
+.variations-container {
+  /* margin-top: 18px; */
+  font-size: 14px;
+  margin-left: 18px;
+}
+.analysis {
+  height: 40%;
+  width: 100%;
+  margin-left: 15px;
+  background-color: rgb(30, 30, 30);
+  border-radius: 8px;
+}
+.explorer-table {
+  display: block;
+  height: 250px;
+  margin: 10px;
+  overflow-y: scroll;
+}
+.explorer-table tbody {
+  display: block;
+  max-height: 100%;
+  min-width: 100%;
+}
+.explorer-line {
+  display: block;
+  cursor: pointer;
+  position: sticky;
+  border-bottom: 1px solid white;
+  background-color: rgb(30, 30, 30);
+  min-width: 100%;
+}
+.explorer-line:hover {
+  background-color: rgb(50, 50, 50);
+}
+.explorer-line td {
+  padding: 5px;
+}
+.explorer-line td cell {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.analysis-menu {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 5px;
+  border-bottom: 1px solid rgb(90, 90, 90);
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: space-between;
+}
+.analysis-title {
+  margin-left: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: inherit;
+  color: white;
+  border: none;
+  font-size: 18px;
+  flex: 0 0 auto;
+}
+.analysis-title::before {
+  font-family: "lichess";
+  font-size: 13px;
+  padding: 8px;
+  content: "A";
+}
+.toggle-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.analysis-toggle {
+  align-self: flex-end;
+  flex: 0 0 auto;
+  margin-left: auto;
+}
+.engine-name {
+  /* margin: 5px; */
+  flex: 0 0 auto;
+  font-size: 10px;
+  display: flex-end;
+}
+#engine-depth {
+  flex: 0 0 auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 10px;
+  display: flex-end;
+}
+.engine-lines {
+  display: flex;
+  flex-direction: column;
+}
+.engine-line {
+  display: flex;
+  max-height: 35px;
+  flex-direction: row;
+  margin-right: 10px;
+  gap: 10px;
+  font-family: "Noto San";
+  font-size: 12px;
+  letter-spacing: 1px;
+  margin-left: 10px;
+  padding: 5px;
+  border-bottom: 1px solid rgb(90, 90, 90);
+  cursor: pointer;
+}
+.engine-line:empty {
+  border-bottom: none;
+  padding: 0px;
+}
+.engine-line:hover {
+  background-color: rgb(50, 50, 50);
+}
+.engine-eval {
+  font-weight: bolder;
+}
+.moves-line {
+  max-height: 24px;
+  /* white-space: nowrap; */
+  overflow: hidden;
+}
